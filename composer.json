@@ -1,0 +1,14 @@
+{
+    "name": "rutkoski/amplify-boilerplate",
+    "description": "Amplify Boilerplate",
+    "authors": [
+        {
+            "name": "Rodrigo Rutkoski Rodrigues",
+            "email": "rutkoski@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "rutkoski/amplify": "dev-master"
+    }
+}
