@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>{{ pageTitle ? pageTitle ~ ' - ' : '' }}{{ optionsValue('site_name') ? optionsValue('site_name') : 'Amplify' }}</title>
+
+{#
+	{% spaceless %}
+	{{ asset('javascript/jquery/jquery.min.js', 'vendor') }}
+
+	{{ asset('stylesheets/styles.css', 'app') }}
+
+	{{ assets(['vendor', 'app']) }}
+	{% endspaceless %}
+#}
+</head>
+<body>
+{{ layout_content }}
+</body>
+</html>
