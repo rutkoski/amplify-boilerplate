@@ -33,4 +33,9 @@ $config['database'] = array(
     )
 );
 
+/**
+ * Disable Twig template cache.
+ */
+// $config['twig:disable_cache'] = true;
+
 require_once ('routes.php');
