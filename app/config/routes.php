@@ -1,4 +1,7 @@
 <?php
+if (! defined('SY_APP_DIR')) {
+    die();
+}
 
 /**
  * routes
