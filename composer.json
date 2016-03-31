@@ -9,7 +9,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "rutkoski/amplify": "dev-master"
+        "rutkoski/amplify": "1.*"
     },
     "autoload": {
         "psr-0": {
