@@ -7,7 +7,6 @@
             "email": "rutkoski@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "rutkoski/amplify": "1.*"
     },
